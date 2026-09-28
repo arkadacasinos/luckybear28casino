@@ -82,6 +82,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <head>
+        <meta name="yandex-verification" content="0930485c0703c76a" />
         {/* Слот для дополнительных пользовательских тегов: вставляйте сюда meta, link, коды верификации */}
       </head>
       <body>{children}</body>

